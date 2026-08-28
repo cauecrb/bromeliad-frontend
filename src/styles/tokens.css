@@ -1,0 +1,45 @@
+/*
+  Tokens de design — "estufa ao anoitecer".
+
+  Paleta pensada no ambiente real de uma estufa de bromélias: fundo em
+  verde-mata profundo (não o cream+terracota padrão), acento em magenta
+  do lábio da flor (Cattleya/Phalaenopsis), e um dourado de pólen como
+  cor secundária de destaque.
+*/
+
+:root {
+  /* Cor — paleta sóbria "herbário/laboratório": fundo claro tipo papel,
+     verde contido como acento primário (sem magenta vibrante), reservado
+     pra contexto de uso em laboratório de mestrado. */
+  --color-bg: #f6f5ef;
+  --color-surface: #ffffff;
+  --color-surface-raised: #f0efe6;
+  --color-text: #2b2e28;
+  --color-text-muted: #7a8073;
+  --color-accent: #3f5b41;        /* verde contido — acento primário */
+  --color-accent-soft: #eaf0e4;   /* wash claro do acento, pra fundo de badge/estado ativo */
+  --color-on-accent: #f6f5ef;     /* texto sobre fundo --color-accent sólido */
+  --color-gold: #b98a2e;          /* âmbar contido — segundo acento */
+  --color-gold-soft: #f6ecd8;
+  --color-border: #e3e1d6;
+  --color-danger: #b24b33;
+
+  /* Tipografia */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Work Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Espaçamento */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  /* Layout */
+  --sidebar-width: 240px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+}

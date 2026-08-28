@@ -1,0 +1,50 @@
+/* background/border/border-radius vêm de .surface (global.css) */
+.bromeliad-card {
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(8px);
+  animation: card-in 0.5s ease forwards;
+}
+
+@keyframes card-in {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Recorte de pétala — o elemento de assinatura repetido em cada card,
+   ecoando o mesmo traço da marca na sidebar. */
+.bromeliad-card__photo {
+  height: 160px;
+  clip-path: path(
+    "M0,20 C0,0 30,0 90,0 C160,0 200,10 200,50 C200,100 160,160 100,160 C40,160 0,110 0,60 Z"
+  );
+  width: 100%;
+}
+
+.bromeliad-card__body {
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.bromeliad-card__name {
+  margin-top: var(--space-2);
+  font-size: 1.05rem;
+}
+
+.bromeliad-card__scientific {
+  font-style: italic;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.bromeliad-card__code {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: var(--space-2);
+}
