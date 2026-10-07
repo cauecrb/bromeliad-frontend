@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Input from "../components/Input";
-import Button from "../components/Button";
+import Input from "../components/Input/Input";
+import Button from "../components/Button/Button";
 import { login } from "../api/auth";
 import { ApiError } from "../api/client";
 import "./Login.css";

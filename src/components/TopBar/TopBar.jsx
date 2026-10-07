@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../Button/Button";
 import "./TopBar.css";
 
 export default function TopBar({ userName = "Cauê", role = "admin", onLogout }) {

@@ -1,4 +1,4 @@
-import Badge from "./Badge";
+import Badge from "../Badge/Badge";
 import "./BromeliadCard.css";
 
 const STATUS = {

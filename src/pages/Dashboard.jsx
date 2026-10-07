@@ -1,5 +1,5 @@
-import StatCard from "../components/StatCard";
-import BromeliadCard from "../components/BromeliadCard";
+import StatCard from "../components/StatCard/StatCard";
+import BromeliadCard from "../components/BromeliadCard/BromeliadCard";
 import { mockBromeliads, mockStats } from "../data/mockData";
 import "./Dashboard.css";
 

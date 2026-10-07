@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
-import TopBar from "./components/TopBar";
+import Sidebar from "./components/Sidebar/Sidebar";
+import TopBar from "./components/TopBar/TopBar";
 import Dashboard from "./pages/Dashboard";
 import NewBromeliad from "./pages/NewBromeliad";
 import Login from "./pages/Login";
